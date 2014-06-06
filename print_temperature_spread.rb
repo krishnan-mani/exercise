@@ -31,7 +31,7 @@ end
 valid_data = weather_data_parsed.slice(2, weather_data_parsed.length)
 
 highest_spread = valid_data.sort.last
-print("Least temperature spread #{highest_spread.day} has least spread #{highest_spread.spread}")
+print("Least temperature spread on day #{highest_spread.day} has least spread #{highest_spread.spread}")
 print "\n"
 
 coldest_day = (valid_data.sort { |a, b| a.min_temp <=> b.min_temp })[0]
