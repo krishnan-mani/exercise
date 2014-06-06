@@ -1,0 +1,7 @@
+In weather.dat [http://codekata.com/data/04/weather.dat] you’ll find daily weather data for Morristown, NJ for June 2002. Download this text file, then write a program and produce an output with the given below format - 
+
+In the first row - Print the day number with the smallest temperature spread. Print the spread value as well. (In the file - Day number is the first column, the maximum temperature is the second column, the minimum the third column).
+
+In the second row - Print the day number which has the minimum tempaerature. Print the temperature as well.
+
+In the third row - Print the day number which has the maximum tempaerature. Print the temperature as well.
