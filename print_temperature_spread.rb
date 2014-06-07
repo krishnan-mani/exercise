@@ -36,10 +36,10 @@ highest_spread = valid_data.sort.last
 print "Least temperature spread on day #{highest_spread.day} has least spread #{highest_spread.spread}"
 print "\n"
 
-coldest_day = (valid_data.sort { |a, b| a.min_temp <=> b.min_temp })[0]
+coldest_day = (valid_data.sort { |a, b| a.min_temp <=> b.min_temp }).first
 print "Coldest day #{coldest_day.day}, temperature dropped to  #{coldest_day.min_temp}"
 print "\n"
 
-hottest_day = (valid_data.sort { |a, b| b.max_temp <=> a.max_temp })[0]
+hottest_day = (valid_data.sort { |a, b| b.max_temp <=> a.max_temp }).first
 print "Hottest day #{hottest_day.day}, mercury soared to #{hottest_day.max_temp}"
 print "\n"
