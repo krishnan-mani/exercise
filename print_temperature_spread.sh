@@ -1,1 +1,0 @@
-ruby print_temperature_spread.rb

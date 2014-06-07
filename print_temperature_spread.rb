@@ -1,3 +1,5 @@
+#!/Users/km/.rvm/rubies/ruby-1.9.3-p286/bin/ruby
+
 class WeatherInfo
   include Comparable
   attr_reader :day, :max_temp, :min_temp
